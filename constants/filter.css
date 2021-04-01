@@ -1,0 +1,16 @@
+#items {
+	margin-top: 100px;
+  }
+  
+  .item {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 1px;
+  }
+  
+  .red { background: #cf2624; }
+  .blue { background: #2478cf; }
+  .green { background: #24cf7c; }
+  .orange { background: #cf7c24; }
+  .yellow { background: #f1e81f; }

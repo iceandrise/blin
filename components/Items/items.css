@@ -1,0 +1,120 @@
+.items-container{
+    display: block;
+    grid-template-columns: repeat(top, minmax(250px, 4fr));
+    grid-gap: 90px;
+    width: 100%;
+    max-width: 1200px;
+    
+    font-family:"Geneva";
+   
+    margin: 190px;
+}
+
+.items-element{
+    display: block;
+	width: 100%;
+	float: left;
+	
+   
+    background-color: var(--color-back);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    
+    margin: 0 50px 50px 0;
+    
+	
+}
+@media only screen and (min-width: 1000px) {
+	.items-element {
+		width: 19%;
+	}
+}
+.items-element__name{
+    margin-bottom: auto;
+  
+    text-align:right;
+    font-size: 20px;
+    font-family: "Geneva";
+    
+
+}
+.items-element__img{
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+    margin-top: var(--spacing-medium);
+
+}
+.items-element__price{
+    margin-top: var(--spacing-medium);
+    color: black;
+    margin:55px;
+    font-family: "Geneva";
+    line-height: 1.4em;
+    text-align: center;
+    
+    font-size: 23px;
+
+}
+.items-element__weight_str{
+    margin-left: 50px;
+    color: var(--color-unaccent);
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+.items-element__weight{
+    margin-left: 50px;
+    color: var(--color-unaccent);
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+.items-element__material{
+    margin-left: 50px;
+    color: var(--color-unaccent);
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.items-element__type{
+    margin-left: 50px;
+    color: var(--color-unaccent);
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+    
+}
+.items-element__btn{
+    text-decoration: none;
+    
+    
+    background: rgba(34, 139, 34, 0.673);
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    font-family: "Open Sans";
+    border-radius: var(--border-radius2);
+
+
+}
+.items-element__btn_active{
+   
+    text-align: center;
+   
+    height: 40px;
+    
+    font-size: 15px;
+    background: rgb(7, 126, 81);
+    
+    border-radius: var(--border-radius2);
+   
+}
+.cena {
+    font-size: 14px;
+    color:rgb(250, 111, 111);
+}
+     
